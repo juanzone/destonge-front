@@ -1,0 +1,41 @@
+.weatherAnim-appear{
+  opacity: 0;
+}
+
+.weatherAnim-appear.weatherAnim-appear-active{
+  opacity: 1;
+  transition: opacity 3s ease-in;
+}
+
+.weatherAnim-enter{
+  opacity: 0;
+}
+
+.weatherAnim-enter.weatherAnim-enter-active{
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.title-home{
+  span{
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+  }
+  h1{
+    font-size: 80px;
+    color: white;
+    font-family: 'Prata'
+  }
+}
+
+.text-home{
+  margin-top: 10px;
+  p{
+    color: #C7C4C0;
+  }
+}
+
+.under-row{
+  margin-top: 30px;
+}

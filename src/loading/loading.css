@@ -1,0 +1,17 @@
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.path {
+  animation-name: hello;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards; }
+
+@keyframes hello {
+  0% {
+    stroke-dashoffset: 600; }
+  100% {
+    stroke-dashoffset: 0; } }

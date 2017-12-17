@@ -1,0 +1,71 @@
+.room-content-container {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black; }
+  .room-content-container .slider-item {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    filter: brightness(40%); }
+  .room-content-container .slick-active {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: transform 12s linear;
+    -moz-transition: transform 12s linear;
+    -ms-transition: transform 12s linear;
+    -o-transition: transform 12s linear;
+    transition: transform 12s linear;
+    transform-origin: bottom right;
+    transition-timing-function: linear; }
+  .room-content-container .room-content {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin-bottom: 3%; }
+    .room-content-container .room-content h1 {
+      font-family: 'Prata';
+      font-size: 55px; }
+    .room-content-container .room-content p {
+      color: #C7C4C0;
+      line-height: 30px;
+      margin-bottom: 30px; }
+    .room-content-container .room-content .title-info-room {
+      font-weight: bold;
+      font-size: 18px;
+      position: relative; }
+      .room-content-container .room-content .title-info-room .info-cigle {
+        position: absolute;
+        left: 0;
+        top: -11px;
+        cursor: pointer;
+        font-size: 14px; }
+      .room-content-container .room-content .title-info-room .info-cigle:hover + .info-date {
+        opacity: 1;
+        transition: all 0.5s; }
+      .room-content-container .room-content .title-info-room .info-date {
+        position: absolute;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.49);
+        -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.49);
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.49);
+        background-color: white;
+        color: black;
+        font-size: 14px;
+        padding: 5px 10px;
+        top: -65px;
+        opacity: 0;
+        left: 0; }
+    .room-content-container .room-content .info-room {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #C7C4C0; }

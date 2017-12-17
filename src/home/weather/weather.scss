@@ -1,0 +1,50 @@
+@import "../../css/global.scss";
+.home-container{
+  margin-top: 6%;
+}
+.weather-container{
+  color: white;
+  font-family: $Roboto;
+  // background: #F2F2F2;
+  // background: rgba(242,242,242,1);
+  // -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.7);
+  // -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.7);
+  // box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.7);
+  // -webkit-border-radius: 4px;
+  // -moz-border-radius: 4px;
+  // border-radius: 4px;
+  h1, h2, h3{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h6{
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  h5{
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .col-xs-4{
+    &:nth-child(1){
+      border-right: 1px solid rgba(255,255,255,0.3);
+    }
+    &:nth-child(2){
+      border-right: 1px solid rgba(255,255,255,0.3);
+    }
+  }
+  .temp{
+    margin: 20px 0;
+  }
+  .w-row{
+    margin-top: 10px;
+    padding: 0 45px;
+  }
+  .w-icon{
+    padding-top: 30px;
+    margin-top: 0;
+    border-top: 1px solid rgba(255,255,255,0.3);
+  }
+}

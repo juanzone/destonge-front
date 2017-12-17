@@ -1,0 +1,76 @@
+.booking-container {
+  background-size: cover; }
+  .booking-container:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4); }
+  .booking-container .content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.date-container {
+  color: white; }
+  .date-container h1 {
+    font-family: 'Prata';
+    text-transform: uppercase;
+    line-height: 50px; }
+
+.date-content h5 {
+  font-size: 20px;
+  color: white; }
+
+.date-content .next-button {
+  color: white;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 20px; }
+  .date-content .next-button:hover {
+    cursor: pointer;
+    color: #E54D42; }
+    .date-content .next-button:hover:before {
+      width: 190px;
+      position: absolute;
+      left: 43%;
+      transition: width 1s; }
+  .date-content .next-button:before {
+    content: "";
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: white; }
+
+.date-content .rdr-DateRange {
+  background: none !important;
+  margin-top: 35px; }
+
+.translate-enter {
+  opacity: 0.01; }
+
+.translate-enter.translate-enter-active {
+  opacity: 1;
+  transition: all 500ms ease-in; }
+
+.translate-leave {
+  opacity: 1; }
+
+.translate-leave.translate-leave-active {
+  opacity: 0.01;
+  transform: translateX(-40%);
+  transition: all 300ms ease-in; }
+
+.test {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }

@@ -1,0 +1,41 @@
+
+.bg-container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.slider-react{
+  background-size: cover;
+  height: 100vh;
+}
+
+
+// @keyframes scaleIn {
+//   0% {
+//     transform: scale(1);
+//   }
+//   100% {
+//     transform: scale(1.1);
+//   }
+// }
+
+.bg-container div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+  transform-origin: bottom left;
+}
+
+.bg-container #img1 {
+  filter:brightness(40%);
+  // animation-name: scaleIn;
+  // animation-timing-function: ease-in-out;
+  // animation-duration: 25s;
+}

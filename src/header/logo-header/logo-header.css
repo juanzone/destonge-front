@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Prata");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700");
+body {
+  margin: 0;
+  padding: 0; }
+
+.container-home {
+  overflow: hidden; }
+
+.equal {
+  display: flex;
+  flex-flow: row wrap; }
+  .equal::before {
+    display: block; }
+
+body {
+  font-family: "Roboto"; }
+
+p {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 35px;
+  color: grey;
+  font-weight: 300; }
+
+.no-padding {
+  padding: 0; }
+
+.panel-container {
+  background-color: white;
+  position: relative;
+  top: -50px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21); }
+
+.logo-header-row {
+  margin-top: 20px; }
+
+.st1 {
+  fill: #FFFFFF; }

@@ -1,0 +1,20 @@
+.lang-container {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  height: 70px;
+  width: 70px;
+  color: white;
+  font-size: 18px;
+  z-index: 10; }
+  .lang-container:hover span.other-lang {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 1s; }
+  .lang-container span {
+    cursor: pointer; }
+  .lang-container span.other-lang {
+    display: block;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: transform 1s; }

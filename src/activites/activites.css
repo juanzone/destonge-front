@@ -1,0 +1,42 @@
+.full-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: red; }
+  .full-container .activite-container {
+    width: calc(100% / 3);
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    background-position: center center !important;
+    background-size: cover !important;
+    color: #C7C4C0;
+    transition: transform 0.5s;
+    font-weight: lighter; }
+    .full-container .activite-container:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.65); }
+    .full-container .activite-container:hover {
+      transform: scale(1.1);
+      transition: transform 0.5s; }
+    .full-container .activite-container:nth-child(1) {
+      background: black; }
+    .full-container .activite-container:nth-child(2) {
+      background: white; }
+    .full-container .activite-container:nth-child(3) {
+      background: green; }
+    .full-container .activite-container .text-center {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      padding: 0 10%;
+      flex-direction: column;
+      font-size: 16px;
+      line-height: 30px; }

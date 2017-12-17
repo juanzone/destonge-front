@@ -1,0 +1,112 @@
+.chambres-container{
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.chambresAnim-appear{
+  opacity: 0;
+}
+
+.chambresAnim-appear.chambresAnim-appear-active{
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.chambresAnim-enter{
+  opacity: 0;
+}
+
+.chambresAnim-enter.chambresAnim-enter-active{
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.chambresAnim-leave{
+  opacity: 1;
+}
+
+.chambresAnim-leave.chambresAnim-leave-active{
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+
+.panel-container{
+  h1,h2{
+    font-family: 'Prata';
+  }
+  p{
+    line-height: 24px;
+  }
+  .intro-rooms{
+    margin: 20px auto;
+  }
+  .room-list{
+    .room-item{
+      margin-bottom: 45px;
+    }
+    .slick-slider{
+      img{
+        transition: all 0.2s;
+        &:hover{
+          transform: scale(1.1);
+          transition: all 0.2s;
+        }
+      }
+      .slick-dots{
+        position: relative;
+        top: -40px;
+      }
+    }
+    .room-header{
+      margin-top: -60px;
+      .col-md-2{
+        &:nth-child(1){
+          background-color: white;
+          position: relative;
+          padding-top: 10px;
+          top: 25px;
+          font-family: 'Prata';
+          font-size: 15px;
+        }
+        &:nth-child(2){
+          button{
+            height: 70px;
+            width: 70px;
+            color: white;
+            font-size: 30px;
+            background-color: red;
+            border: 5px solid white;
+            i{
+              transition: all 0.2s;
+            }
+            &:hover{
+              i{
+                transform: rotate(-45deg);
+                transition: all 0.2s;
+              }
+            }
+          }
+        }
+      }
+    }
+    .title-row{
+      border-bottom: 1px solid #E1E5EE;
+      margin: 0;
+      .room-title{
+        font-size: 30px;
+        padding: 10px 0;
+        font-family: 'Prata';
+        margin-left: 20px;
+      }
+    }
+    .attr-container{
+      border-bottom: 1px solid #E1E5EE;
+      padding: 10px 0;
+      color: #B5BAC8;
+      &:last-child{
+        border: 0;
+      }
+    }
+  }
+}

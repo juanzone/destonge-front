@@ -1,0 +1,221 @@
+[
+  {
+    "lang": "fr",
+    "menu": [
+      {"title" : "Accueil", "link" : ""},
+      {"title" : "Chambres" , "link" : "rooms"},
+      {"title" : "Gîtes" , "link" : "gite"},
+      {"title" : "Réservation" , "link" : "booking"},
+      {"title" : "Events" , "link" : "events"},
+      {"title" : "Activités" , "link" : "activity"},
+      {"title" : "Galerie" , "link" : "gallery"}
+    ],
+    "welcome" : "Bienvenue au Mas Destonge",
+    "by" : "Par Dominique & Stephan",
+    "homeText" : "Au bas des falaises d’ocre du pittoresque village de Roussillon, dans un petit hameau entouré de vignes et de champs de lavande, Dominique et Stephan vous attendent dans leur ancienne ferme rénovée, le mas Destonge pour un séjour inoubliable. Notre maison d’hôtes de 560 m2 vous permettra de vous détendre dans la pièce commune. Une cuisine équipée est également à votre disposition afin de vous permettre de préparer de petits plats.. Un terrain de pétanque et un espace fitness est également à la disposition de nos hôtes. Nous vous proposons quatre chambres d’hôtes (dont une familiale) et une suite composée de deux chambres très confortables et au décor personnalisé. Un grand parking privé et le wifi sont à votre disposition gratuitement.",
+    "rooms" : [
+      {
+        "name" : "Le Loft",
+        "slug" : "loft",
+        "msPrice" : "105,00€ / nuit",
+        "hsPrice" : "135,00€ / nuit",
+        "description" : "Nichée tout en haut de la maison, elle occupe tout l’étage. Installés sur sa très belle terrasse vous pourrez admirer la piscine, le jardin et plus loin les monts du Vaucluse et du Luberon. La décoration soignée et raffinée de cette chambre, le véritable meuble de drapier en guise de tête de lit, la salle de bain semi ouverte, en accentuent le charme. Chambre équipée d’un grand lit double de 1m80, salle de bain baignoire, wc indépendant de la salle de bain.",
+        "attributes" : {
+          "bed" : "Un grand lit double de 1m80",
+          "bath" : "Une salle de bain",
+          "avantage" : "Equipé d'une terrasse",
+          "person" : "Pour 2 personnes maximum"
+        },
+        "background" : "bg-loft.jpg",
+        "images" : [
+          "bg-loft.jpg",
+          "loft2.jpg",
+          "loft3.jpg"
+        ]
+      },
+      {
+        "name" : "La rodin",
+        "slug" : "rodin",
+        "msPrice" : "95,00€ / nuit",
+        "hsPrice" : "110,00€ / nuit",
+        "description" : "Sa patine murale dans les teintes ocre, sa salle de bain aux murs recouverts de pierre des carrières de St Gens ainsi que sa douche avec ses hydrojets vous séduiront et vous inviteront à la rêverie. Chambre équipée d’un grand lit double de 1m80, salle de bain douche, wc.",
+        "attributes" : {
+          "bed" : "Un grand lit double de 1m80",
+          "bath" : "Une salle de bain",
+          "avantage" : "Douche avec hydrojets",
+          "person" : "Pour 2 personnes maximum"
+        },
+        "background" : "bg-rodin.jpg",
+        "images" : [
+          "bg-rodin.jpg",
+          "rodin1.jpg",
+          "rodin2.jpg"
+        ]
+      },
+      {
+        "name" : "La Van Gogh",
+        "slug" : "vangogh",
+        "msPrice" : "95,00€ / nuit",
+        "hsPrice" : "110,00€ / nuit",
+        "description" : "La couleur lavande de cette chambre et sa salle de bain aux carreaux vernissés vous plongeront dans l’atmosphère de notre belle Provence. La vue sur la piscine et l’olivier centenaire vous séduiront. Chambre équipée d’un grand lit double de 1m80, salle de bain baignoire, wc.",
+        "attributes" : {
+          "bed" : "Un grand lit double de 1m80",
+          "bath" : "Une salle de bain",
+          "avantage" : "Vue sur la piscine et l’olivier",
+          "person" : "Pour 2 personnes maximum"
+        },
+        "background" : "bg-vg.jpg",
+        "images" : [
+          "chambre2.jpg",
+          "chambre1.jpg",
+          "vangogh_3.jpg",
+          "vangogh_4.jpg"
+        ]
+      },
+      {
+        "name" : "L'Amandine",
+        "slug" : "amandine",
+        "msPrice" : "125,00€ / nuit",
+        "hsPrice" : "150,00€ / nuit",
+        "description" : "Cette chambre familiale de 36m2 dans les coloris beige vous offre un bel espace calme et confortable. Chambre équipée d’un grand lit double d’1m80, d’une mezzanine équipée de deux lits simples qui ravira petits et grands, d’une très grande salle de bain baignoire et d’une toilette indépendante.",
+        "attributes" : {
+          "bed" : "4 Lits",
+          "bath" : "Une grande salle de bain",
+          "avantage" : "Mezzanine de deux lits simples",
+          "person" : "Pour 4 personnes maximum"
+        },
+        "background" : "bg-amandine.jpg",
+        "images" : [
+          "bg-amandine.jpg",
+          "amandine_1.jpg",
+          "amandine_2.jpg",
+          "amandine_3.jpg",
+          "amandine_4.jpg"
+        ]
+      },
+      {
+        "name" : "La Suite Indigo / Provencale",
+        "slug" : "indigo",
+        "msPrice" : "160,00€ / nuit",
+        "hsPrice" : "200,00€ / nuit",
+        "description" : "Cette suite est composée de deux chambres réunies par un petit hall. La provençale aux couleurs du pays est équipée d’un grand lit double d’1m80, d’un lit simple, d’une salle de bain baignoire et d’un WC. L’indigo qui vous charmera par ses tons apaisants, est équipée d’un grand lit double de 1m80, d’une salle de bain bleutée avec douche et WC.",
+        "attributes" : {
+          "bed" : "3 Lits",
+          "bath" : "2 salles de bain",
+          "avantage" : "2 grand lits doubles",
+          "person" : "Pour 5 personnes maximum"
+        },
+        "background" : "bg-indigo.jpg",
+        "images" : [
+          "suite2.jpg",
+          "suite3.jpg",
+          "suite4.jpg",
+          "suite5.jpg"
+        ]
+      }
+    ],
+    "text" : {
+      "Phs" : "Prix haute saison",
+      "Pms" : "Prix moyenne saison",
+      "Pbs" : "Prix basse saison",
+      "Dhs" : "Du 15 juin au 15 septembre",
+      "Dms" : "Du 1er avril au 14 juin & Du 16 septembre au 31 octobre",
+      "Dbs" : "Du 1er novembre au 31 mars",
+      "litSupp" : "Lit supplémentaire",
+      "prixLitSupp" : "30,00€ (petit déjeuner compris)",
+      "dej" : "Petit-déjeuner",
+      "prixDej" : "Inclus dans le prix de la chambre.",
+      "soon" : "Nous communiquerons bientôt les informations liées à cette partie."
+    },
+    "gite" : {
+      "title" : "Le Mazet",
+      "description" : "De plain-pied , le Mazet est un gîte indépendant de la maison d’hôte. Il est idéal pour 2 personnes. Il se compose d’une grande pièce de vie avec un coin cuisine entièrement équipé ( cuisinière vitrocéramique, four, réfrigérateur, congélateur, lave-vaisselle et micro-ondes ), un coin repas et un coin salon avec TV. La chambre, équipée d’un lit double ( 1m60 ) est confortable et lumineuse grâce à une porte fenêtre qui s’ouvre sur la terrasse. La salle de bain spacieuse est équipée d’une douche italienne et d’une machine à laver. La toilette est indépendante de la salle de bain. Le Mazet vous offre un accès à deux terrasses privatives vous permettant de profiter du soleil à chaque instant de la journée, l’une avec accès vers la piscine et  l’autre avec accès le jardin.",
+      "msPrice" : "600€ / nuit",
+      "hsPrice" : "750€ / nuit",
+      "bsPrice" : "400€ / nuit",
+      "person" : "2 personnes max.",
+      "images" : [
+        "chambre.jpg",
+        "salon.jpg",
+        "salon2.jpg",
+        "sdb.jpg"
+      ]
+    },
+    "activity" : {
+    "txt1" : "Le Luberon, lieu magique aux villages perchés (Roussillon, Bonnieux, Lacoste, Gordes,…) et à la nature époustouflante… Vous vous plairez à découvrir le sentier des ocres de Roussillon et le Colorado de Rustrel mais aussi, Fontaine de Vaucluse, L’isle sur la Sorgue et plus loin, Avignon, les Baux de Provence, Aix en Provence, le sud du Luberon et sa route des châteaux…",
+    "txt2" : "Vous pourrez prendre le temps de visiter le Palais des papes, le pont d’Avignon et, près de Gordes, l’Abbaye de Sénanque, le château du Marquis de Sade ainsi que bien d’autres endroits que Dominique et Stephan auront à cœur de vous faire découvrir…",
+    "txt3" : "Dominique et Stephan vous renseigneront sur plusieurs activités possibles dans la région : balade en calèche à la découverte du patrimoine naturel et culturel du massif ocrier, beaucoup de parcours en vélos sont accessibles, descentes en Kayak à partir de Fontaine de Vaucluse,…"
+    }
+  },
+{
+    "lang": "en",
+    "menu": [
+      {"title" : "Rooms" , "link" : "rooms"},
+      {"title" : "Gîtes" , "link" : "gite"},
+      {"title" : "Booking" , "link" : "booking"},
+      {"title" : "Events" , "link" : "events"},
+      {"title" : "Activities" , "link" : "acitivity"},
+      {"title" : "Gallery" , "link" : "gallery"}
+    ],
+    "welcome" : "Welcome to the Mas Destonge",
+    "by" : "By Dominique & Stephan",
+    "homeText" : "At the foot of the cliffs of ochre of the picturesque village of Roussillon, in a small hamlet surrounded by vineyards and fields of lavender, Dominique and Stephan await you in their renovated farm, the Mas Destonge, for an unforgettable stay. Our Bed & Breakfast house of 560m2 will allow you to relax in the common room equipped with a pooltable, a television, and a user-friendly space ideal for reading, board games,… A fully-equipped kitchen is also at your disposal to allow you to prepare some tasty dishes which you will then have the opportunity to enjoy on the lovely terrace or under the plane tree of our cute « Place de l’apéro ». Outside, you will be able to rest at the rhythm of the cicada song in our flowery garden leading to the swimming pool while our fitness areal will be the delight of the bravest ones. We offer four highly comfortable  guest rooms (one of which is a family room) and an ensuite room with 2 separate bedrooms, all of them with a customized decoration. A big parking lot is at your disposal free of charge.",
+    "rooms" : [
+      {
+        "name" : "Le Loft",
+        "description" : "Nested at the very top of the house, it occupies the entire floor. From its beautiful terrace you will have a beautiful view on the swimming pool, the garden, and the mounts of Vaucluse and Lubéron. The neat and sophisticated decoration of this room, with an original cloth merchant’s piece of furniture as headboard, and a semi-open bathroom, enhance its charm. The room is equipped with a superking size bed, a bathroom with bathtub, and separated toilet.",
+        "attributes" : {
+          "bed" : "Superking size bed 1m80",
+          "bath" : "A semi-open bathroom",
+          "avantage" : "With a beautiful terrace",
+          "person" : "For 2 persons maximum"
+        },
+        "background" : "bg-loft.jpg"
+      },
+      {
+        "name" : "La rodin",
+        "description" : "Its wall patina in shades of ochre, its bathroom’s walls covered with stones fro the St Gens’s careers, as well as its jet shower, will seduce you and create a perfect atmosphere for daydreaming. The room is equipped with a superking size bed, a bathroom with bathtub, and toilet.",
+        "attributes" : {
+          "bed" : "Superking size bed 1m80",
+          "bath" : "A bathroom with bathtub",
+          "avantage" : "As well its jet shower",
+          "person" : "For 2 persons maximum"
+        },
+        "background" : "bg-rodin.jpg"
+      },
+      {
+        "name" : "La Van Gogh",
+        "description" : "The lavender color of this room, and its bathroom with varnished tiles will plunge you in the atmosphere of our beautiful Provence. The view on the swimming pool and the hundred-year-old olive tree will charm you. The room is equipped with a superking size bed, a bathroom with bathtub, and toilet.",
+        "attributes" : {
+          "bed" : "Superking size bed 1m80",
+          "bath" : "A bathroom with bathtub",
+          "avantage" : "View on the swimming pool and the hundred-year-old olive",
+          "person" : "For 2 persons maximum"
+        },
+        "background" : "bg-vg.jpg"
+      },
+      {
+        "name" : "L'Amandine",
+        "description" : "This 36m2 family room in beige colors offers you a beautiful, quiet and comfortable space. The room is equipped with a superking size bed, a mezzanine equipped with two single beds which will delight young and old alike, a very big bathroom with bathtub, and a separate toilet.",
+        "attributes" : {
+          "bed" : "4 beds",
+          "bath" : "A big bathroom with bathtub",
+          "avantage" : "A mezzanine equipped with two single beds",
+          "person" : "For 4 persons maximum"
+        },
+        "background" : "bg-amandine.jpg"
+      },
+      {
+        "name" : "La Suite Indigo / Provencale",
+        "description" : "This ensuite consists of 2 rooms joined by a small hall. The Provençale with its typical colors is equipped with a superking size bed, a single bed, a bathroom with bathtub and toilet. The Indigo which will charm you with its soothing shades is equipped with a superking size bed, a bluish bathroom with shower and toilet.",
+        "attributes" : {
+          "bed" : "3 Beds",
+          "bath" : "2 bathrooms",
+          "avantage" : "2 King size bed",
+          "person" : "For 5 persons maximum"
+        },
+        "background" : "bg-indigo.jpg"
+      }
+    ]
+  }
+]
