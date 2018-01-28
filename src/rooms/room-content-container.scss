@@ -43,6 +43,9 @@
       margin-bottom: 30px;
     }
     .title-info-room{
+      @media screen and (min-width: 1200px) {
+        font-size: 14px;
+      }
       font-weight: bold;
       font-size: 18px;
       position: relative;
@@ -72,9 +75,15 @@
         top: -65px;
         opacity: 0;
         left: 0;
+        @media screen and (min-width : 1200px ){
+          font-size : 12px;
+        }
       }
     }
     .info-room{
+      @media screen and (min-width : 1200px){
+        font-size: 13px;
+      }
       margin-top: 10px;
       font-size: 15px;
       color: #C7C4C0;

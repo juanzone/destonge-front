@@ -40,6 +40,9 @@ p {
 .weather-container {
   color: white;
   font-family: "Roboto"; }
+  @media screen and (min-width: 1200px) {
+    .weather-container {
+      display: none; } }
   .weather-container h1, .weather-container h2, .weather-container h3 {
     text-transform: uppercase;
     font-weight: bold; }

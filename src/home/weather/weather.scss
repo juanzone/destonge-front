@@ -3,6 +3,9 @@
   margin-top: 6%;
 }
 .weather-container{
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
   color: white;
   font-family: $Roboto;
   // background: #F2F2F2;

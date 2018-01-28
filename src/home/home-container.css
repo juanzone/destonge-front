@@ -26,6 +26,10 @@
   margin-top: 10px; }
   .text-home p {
     color: #C7C4C0; }
+  @media screen and (min-width: 1200px) {
+    .text-home {
+      width: 90% !important;
+      padding-left: 10% !important; } }
 
 .under-row {
   margin-top: 30px; }
