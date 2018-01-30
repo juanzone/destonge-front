@@ -41,7 +41,7 @@
       font-weight: bold;
       font-size: 18px;
       position: relative; }
-      @media screen and (min-width: 1200px) {
+      @media screen and (max-width: 1200px) {
         .room-content-container .room-content .title-info-room {
           font-size: 14px; } }
       .room-content-container .room-content .title-info-room .info-cigle {
@@ -68,13 +68,23 @@
         top: -65px;
         opacity: 0;
         left: 0; }
-        @media screen and (min-width: 1200px) {
+        @media screen and (max-width: 1200px) {
           .room-content-container .room-content .title-info-room .info-date {
             font-size: 12px; } }
     .room-content-container .room-content .info-room {
       margin-top: 10px;
       font-size: 15px;
       color: #C7C4C0; }
-      @media screen and (min-width: 1200px) {
+      @media screen and (max-width: 1200px) {
         .room-content-container .room-content .info-room {
           font-size: 13px; } }
+
+.slick-prev::before, .slick-next::before {
+  font-size: 30px; }
+
+.slick-prev {
+  z-index: 10;
+  left: 25px; }
+
+.slick-next {
+  right: 25px; }

@@ -42,6 +42,9 @@
       padding-bottom: 15px;
       font-size: 14px;
       color: rgba(255, 255, 255, 0.7); }
+      @media screen and (max-width: 1200px) {
+        .room-item .room-item-center .attribute-list img {
+          display: none; } }
       .room-item .room-item-center .attribute-list:nth-child(1) {
         border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
       .room-item .room-item-center .attribute-list:nth-child(2) {

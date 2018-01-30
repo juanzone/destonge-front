@@ -3,7 +3,7 @@
   margin-top: 6%;
 }
 .weather-container{
-  @media screen and (min-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     display: none;
   }
   color: white;

@@ -29,6 +29,7 @@ class RoomContentContainer extends Component {
       slidesToScroll: 1,
       autoplay : true,
       autoplaySpeed : 7000,
+      arrows : true,
       // fade: true,
       draggable : false
     };

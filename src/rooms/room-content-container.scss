@@ -43,7 +43,7 @@
       margin-bottom: 30px;
     }
     .title-info-room{
-      @media screen and (min-width: 1200px) {
+      @media screen and (max-width: 1200px) {
         font-size: 14px;
       }
       font-weight: bold;
@@ -75,13 +75,13 @@
         top: -65px;
         opacity: 0;
         left: 0;
-        @media screen and (min-width : 1200px ){
+        @media screen and (max-width : 1200px ){
           font-size : 12px;
         }
       }
     }
     .info-room{
-      @media screen and (min-width : 1200px){
+      @media screen and (max-width : 1200px){
         font-size: 13px;
       }
       margin-top: 10px;
@@ -89,4 +89,19 @@
       color: #C7C4C0;
     }
   }
+}
+
+.slick-prev, .slick-next{
+  &::before{
+    font-size: 30px;
+  }
+}
+
+.slick-prev {
+  z-index: 10;
+  left: 25px;
+}
+
+.slick-next{
+  right: 25px;
 }
